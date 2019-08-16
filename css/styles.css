@@ -60,6 +60,8 @@ header {
       border-left: solid 1px #5d5d5d;
       width: 15%;
       padding: 8px; }
+      header nav li:hover {
+        background: linear-gradient(#646464, #434343, #5a5a5a); }
       header nav li a {
         text-decoration: none;
         color: #ffffff;
