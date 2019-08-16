@@ -1,0 +1,135 @@
+/* ================================================ General Styles ================================================== */
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: column; }
+
+.text-center {
+  text-align: center; }
+
+.font-sm {
+  font-size: 12px; }
+
+.font-bg {
+  font-size: 24px;
+  font-weight: 300; }
+
+.inline-b {
+  display: inline-block; }
+
+.right-border {
+  border-right: solid 1px #949494; }
+
+a {
+  text-decoration: none;
+  color: white; }
+  a:hover {
+    text-decoration: underline; }
+
+/* ================================================== Header ======================================================== */
+header {
+  background-image: url("https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg");
+  background-position: 50% 100%;
+  width: 100%; }
+  header nav {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-size: 13px; }
+    header nav ul {
+      border-radius: 5px;
+      background-image: linear-gradient(#969696, #5e5e5e, #6b6b6b);
+      box-shadow: 0 1px 4px #656565;
+      display: flex;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      border-top: solid 1px #5d5d5d;
+      border-bottom: solid 1px #5d5d5d;
+      border-right: solid 1px #5d5d5d; }
+    header nav li {
+      display: inline-block;
+      text-align: center;
+      border-left: solid 1px #5d5d5d;
+      width: 15%;
+      padding: 8px; }
+      header nav li a {
+        text-decoration: none;
+        color: #ffffff;
+        text-align: center; }
+      header nav li form {
+        display: flex;
+        width: 100%; }
+      header nav li label {
+        display: inline-block;
+        background: #ffffff;
+        padding: 1px;
+        width: 15%; }
+      header nav li .left-label {
+        padding-left: 3px;
+        padding-right: 5px;
+        border-top-left-radius: 50%;
+        border-bottom-left-radius: 50%;
+        font-size: 12px; }
+      header nav li input {
+        display: inline-block;
+        padding: 1px;
+        width: 80%;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px; }
+    header nav .logo-icon {
+      font-size: 20px;
+      padding: 2px; }
+  header div {
+    margin-top: 30px;
+    margin-bottom: 210px; }
+
+/* =================================================== Main ========================================================= */
+main {
+  width: 100%;
+  display: flex; }
+  main .articles {
+    width: 25%;
+    height: 200px;
+    overflow: hidden; }
+    main .articles a {
+      height: 100%;
+      display: flex; }
+    main .articles img {
+      width: 100%; }
+
+/* ==================================================== Footer ====================================================== */
+footer {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-size: 10px;
+  padding: 20px 30px 0 30px; }
+  footer div {
+    width: 40%; }
+  footer .left-div {
+    margin-left: 100px;
+    color: #949494; }
+    footer .left-div p {
+      margin-bottom: 15px; }
+  footer .right-div {
+    margin-right: 100px; }
+  footer ul {
+    display: flex;
+    list-style: none; }
+  footer li a {
+    display: inline-block;
+    padding-right: 6px;
+    padding-left: 6px; }
+  footer a {
+    color: #3992d1; }
+
+/*# sourceMappingURL=styles.css.map */
