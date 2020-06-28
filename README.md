@@ -1,7 +1,7 @@
 # Building with Backgrounds and Gradients
 
 > The target of this project is to create a clone page based on this [apple's old page](https://web.archive.org/web/20140301004610/http://www.apple.com/)
-  using images as backgrounds and gradients.
+> using images as backgrounds and gradients.
 
 ![screenshot](./screenshot.PNG)
 
@@ -21,24 +21,29 @@ You can find the original description in [The Odin Project](https://www.theodinp
 
 ### Prerequisites
 
-- `git`
+- `Git`
 
 ### Setup
 
-To clone the project into your local environment do the following
+To clone the project into your local environment do the following.
 
-- open a new `terminal` window and navigate to the directory where the project will be stored
-- run the command `git clone git@github.com:oscardelalanza/building-with-gradients.git`
-- run the command `cd building-with-gradients` to enter to the project directory
+- Open a new `terminal` window and navigate to the directory where the project will be stored.
+- Run the command `git clone git@github.com:oscardelalanza/building-with-gradients.git`.
+- Run the command `cd building-with-gradients` to enter to the project directory.
+
+### Install
+
+- This project doesn't require installation, node modules, or similar.
 
 ### Usage
 
-- open `index.html` in your web browser
+*This project is a web template. Is only demonstrative and does not contain functional features.*
+
+- Open `index.html` in your web browser to see the page.
 
 ### Run tests
 
-- no written tests yet
-
+- This project does not contain tests.
 
 ## Authors
 
