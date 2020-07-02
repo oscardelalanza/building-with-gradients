@@ -41,10 +41,6 @@ To clone the project into your local environment do the following.
 
 - Open `index.html` in your web browser to see the page.
 
-### Run tests
-
-- This project does not contain tests.
-
 ### Deployment
 
 - Open `index.html` file to go directly to the page, or use your preferred web server.
